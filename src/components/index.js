@@ -1,2 +1,2 @@
-export { default as Counter } from './counter/Counter';
-export { default as TexInput } from './textInput/TexInput';
+export { default as ToDo } from './todo/Todo';
+export { default as TodoItemCreator } from './todoItemCreator/TodoItemCreator';

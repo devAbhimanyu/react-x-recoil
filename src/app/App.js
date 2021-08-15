@@ -1,18 +1,23 @@
 import { RecoilRoot } from 'recoil';
-import { Counter, TexInput } from '../components';
+import { ToDo } from '../components';
+import { Grid } from '@material-ui/core';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <h4 className='center'>Recoil Calculate String Character Count</h4>
+    <Grid
+      container
+      direction='column'
+      justifyContent='center'
+      alignItems='center'
+    >
+      <h4 className='center'>Recoil ToDo List</h4>
       <div className='App container'>
         <RecoilRoot>
-          <TexInput />
-          <Counter />
+          <ToDo />
         </RecoilRoot>
       </div>
-    </>
+    </Grid>
   );
 }
 
